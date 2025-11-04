@@ -1,5 +1,5 @@
 {% set name = "sudachidict-small" %}
-{% set version = "20250825" %}
+{% set version = "20251022" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: f150c3657252d8b91d3fb073b756f87a0f1385102222630a1ea679a6b6b91699
+  sha256: c8350595c3f5946ff0f105083ca40e5fc6db96302488c6f078c962c284e7db67
 
 build:
   noarch: python
